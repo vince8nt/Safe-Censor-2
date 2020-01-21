@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Safe Censor</title>
+		<meta name="description" content="Censor innapropriate text and images on visited pages.">
+		<meta property="og:title" content="Safe Censor">
+		<meta property="og:type" content="website">
+		<meta property="og:site_name" content="Safe Censor">
+		<meta property="og:description" content="Censor innapropriate text and images on visited pages.">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body style="background-color: #fff5cc; padding: 4px; width: 256px;">
+		<div class="container">
+  			<div class="row">
+				<input id="enable" type="checkbox" style="">
+				Enable
+			</div>
+			<div class="row">
+				<br>Add website to blacklist<br>
+				<input id="url" type="string" style="width: 200px;" placeholder="https://example.com/image.png">
+				<input id="addUrl" type="submit" value="Add">
+			</div>
+			<div class="row">
+				<br>Add word to blacklist<br>
+				<input id="string" type="string" style="width: 200px;" placeholder="frick">
+				<input id="addString" type="submit" value="Add">
+			</div>
+		</div>
+		<script src="Popup.js"></script>
+	</body>
+</html>
